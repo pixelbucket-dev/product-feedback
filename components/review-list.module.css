@@ -1,0 +1,11 @@
+.reviews {
+  display: grid;
+  grid-gap: 1rem;
+  grid-column: span 2 / auto;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 10px;
+}

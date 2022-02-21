@@ -1,0 +1,16 @@
+.rating label input {
+  display: none;
+}
+
+.rating label {
+  color: black;
+}
+
+.rating.interactive:hover label:not(.rating label:hover ~ label),
+.rating label.checked {
+  color: orange;
+}
+
+.rating label::after {
+  content: '\2605';
+}

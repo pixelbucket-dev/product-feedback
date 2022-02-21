@@ -1,0 +1,14 @@
+.review-form {
+  display: grid;
+  grid-gap: 0.5rem;
+  align-self: start;
+  white-space: pre;
+}
+
+.review-form .comment {
+  resize: vertical;
+}
+
+.review-form label {
+  display: inline-flex;
+}
